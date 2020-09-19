@@ -1,0 +1,188 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.navbar {
+    height: 40px;
+    width: 40%;
+    margin: auto;
+    background-color: #1af0f0;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 2px 2px 5px #14c5c5;
+}
+
+.navbar a {
+    padding: 10px 5px;
+    display: inline-block;
+    width: 25%;
+    height: 100%;
+    line-height: 100%;
+    text-align: center;
+    margin: 0 -2px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: monospace;
+}
+
+.navbar a:not(.no-border) {
+    border-right: 1px solid #ffffff;
+}
+
+.main-container {
+    background-color: #55FFFF;
+    width: 100%;
+    padding: 0 20px 20px 20px;
+}
+
+.profile-container {
+    height: 450px;
+    width: 350px;
+    background: linear-gradient(130deg, #88fafa, #00ffff);
+    border-radius: 5px;
+    box-shadow:  8px 8px 10px #56e7e7, 
+             -7px -7px 10px #4bfafa;
+    margin: 50px auto;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.profile-container img {
+    height: 100px;
+    width: 100px;
+    border: 2px solid #000000;
+    border-radius: 50%;
+    margin: auto;
+    display: block;
+}
+
+.name-container {
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+    color: #ffdd00;
+}
+
+.profile-link-container {
+    margin-top: 40px;
+    width: 100%;
+    height: 50px;
+}
+
+.download-btn, .support-btn {
+    width: 45%;
+    border: none;
+    border-radius: 7px;
+    padding: 8px 10px;
+    font-size: 1vw;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-variant: small-caps;
+}
+
+.download-btn {
+    float: left;
+    background-color: #ffce2e;
+}
+
+.support-btn {
+    float: right;
+    background: linear-gradient(145deg, #1ff5f5, #1acece);
+}
+
+.support-btn:hover, .download-btn:hover {
+    filter: brightness(95%);
+}
+
+.support-btn:active {
+    background: linear-gradient(145deg, #1acece, #1ff5f5);
+}
+
+.download-btn:active {
+    filter: brightness(88%);
+}
+
+.main-quote {
+    margin-top: 30px;
+    width: 100%;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+}
+
+.main-quote::before {
+    content: "\201C";
+    font-size: 25px;
+    font-style: normal;
+}
+
+.main-quote::after {
+    content: "\201D";
+    font-size: 25px; 
+    font-style: normal;
+    line-height: 13px;
+}
+
+.feature-container:nth-child(even) {
+    background-color: #55f1f1;
+    width: 100%;
+    height: 500px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.feature-container:nth-child(odd) {
+    background-color: #40f9ff;
+    width: 100%;
+    height: 450px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.feature-img-container {
+    width: 40%;  
+    height: 80%; 
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+}
+
+.feature-img-container img {
+    width: 470px;
+    height: 300px;
+    border: 10px solid #ffffff;
+    border-radius: 10px;
+    box-shadow: 7px 7px 10px #13b5c0;
+}
+
+
+.feature-title {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #0c99d1;
+}
+
+.feature-description {
+    float: right;
+    width: 60%;
+    height: 80%;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    font-family: monospace;
+}
