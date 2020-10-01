@@ -36,7 +36,7 @@ body {
 }
 
 .main-container {
-    background-color: #55FFFF;
+    background-image: linear-gradient(115deg, #88fafa 50%, #E4E9FD 50%);
     width: 100%;
     padding: 0 20px 20px 20px;
 }
@@ -44,9 +44,9 @@ body {
 .profile-container {
     height: 450px;
     width: 350px;
-    background: linear-gradient(130deg, #88fafa, #00ffff);
+    background-image: linear-gradient(115deg, #E4E9FD 50%, #88fafa 50%);
     border-radius: 5px;
-    box-shadow:  8px 8px 10px #56e7e7, 
+    box-shadow:  8px 8px 10px #56e7e7,
              -7px -7px 10px #4bfafa;
     margin: 50px auto;
     padding: 20px 10px;
@@ -128,13 +128,13 @@ body {
 
 .main-quote::after {
     content: "\201D";
-    font-size: 25px; 
+    font-size: 25px;
     font-style: normal;
     line-height: 13px;
 }
 
 .feature-container:nth-child(even) {
-    background-color: #55f1f1;
+    background-image: linear-gradient(115deg, #88fafa 60%, #E4E9FD 50%);
     width: 100%;
     height: 500px;
     padding: 20px;
@@ -143,7 +143,7 @@ body {
 }
 
 .feature-container:nth-child(odd) {
-    background-color: #40f9ff;
+    background-image: linear-gradient(115deg, #E4E9FD 50%, #88fafa 70%);
     width: 100%;
     height: 450px;
     padding: 20px;
@@ -152,11 +152,11 @@ body {
 }
 
 .feature-img-container {
-    width: 40%;  
-    height: 80%; 
+    width: 40%;
+    height: 80%;
     display: flex;
     justify-content: center;
-    align-content: center; 
+    align-content: center;
 }
 
 .feature-img-container img {
